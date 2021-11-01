@@ -1,0 +1,413 @@
+/* RESPONSIVE TABLET */
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .header {
+    width: 100vw;
+    height: 48px;
+    flex-direction: row;
+    position: fixed;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .logo {
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-top: -2px;
+
+  }
+
+  .header .logo h1 {
+    font-size: 24px;
+    margin-left: 8px;
+  }
+
+  .header .logo img {
+    width: 35px;
+  }
+
+  .header nav {
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  nav .identitas.image input {
+    opacity: 0;
+    cursor: pointer;
+    top: 1px;
+    right: 7px;
+    height: 35px;
+    width: 52px;
+    position: absolute;
+    z-index: 35;
+  }
+
+  nav .identitas.name {
+    margin-right: 6px;
+  }
+
+  nav .identitas.name .identitas.username p {
+    font-size: 13px;
+    margin-left: 6px;
+    outline: solid 1px rgba(0, 0, 0, 0.0);
+  }
+
+  nav .identitas.image {
+    width: 377px;
+    height: 36px;
+  }
+
+  nav .identitas.image.outline {
+    outline: solid 3px rgba(15, 111, 197, 0.8);
+  }
+
+  nav .identitas.image .button.panah img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    cursor: default;
+  }
+
+  nav .identitas.image .button.profil img {
+    width: 38px;
+    height: 38px;
+    margin-right: 2px;
+    align-items: center;
+    cursor: default;
+    justify-content: center;
+  }
+
+    .header .kotak {
+    position: absolute;
+    z-index: -1;
+    background-color: #b0c4de;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 10px;
+    right: 15px;
+  }
+
+  nav .menu-items {
+    font-size: 10px;
+    z-index: -3;
+    display: flex;
+    flex-direction: column;
+    width: 173px;
+    height: 247px;
+    position: absolute;
+    margin-right: 3px;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    cursor: default;
+    transition: all 0.4s;
+    opacity: 0;
+    margin-top: -230px;
+  }
+
+  nav .identitas.image .menu-items.toggle {
+    z-index: -3;
+    opacity: 1;
+    margin-top: 287px;
+  }
+
+  nav .identitas.image .menu-items .home a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .home img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }
+
+  nav .identitas.image .menu-items .product a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .product img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }
+
+  nav .identitas.image .menu-items .promotion a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .promotion img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }nav .identitas.image .menu-items .bag a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .bag img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }
+
+  nav .identitas.image .menu-items .testimoni a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .testimoni img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }
+
+  nav .identitas.image .menu-items .contact a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .contact img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }
+
+  nav .identitas.image .menu-items .logout a {
+    font-size: 13px;
+    width: 171px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+  }
+
+  nav .identitas.image .menu-items .logout img {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    top: 7px;
+    left: 15px;
+  }
+
+  /* END HEADER */
+
+
+.btn {
+  font-size: 8.5px;
+  display: inline-block;
+  background: #4772aa;
+  color: #fff;
+  padding: 5px 13px;
+  margin: 15px 0;
+  border-radius: 30px;
+  transition: background 0.2s, transform 0.2s;
+  width: 98px;
+  text-align: center;
+}
+
+
+  /* MAIN */
+  #main {
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  #main .row {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  #main .row img {
+    width: 450px;
+    justify-content: center;
+  }
+
+  .col-1 {
+    padding: 10px;
+  }
+
+  #main .row .col-1 h1 {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+
+  #main .row .col-1 p {
+    font-size: 8px;
+  }
+
+
+  /* END MAIN */
+
+
+  /* CATEGORIES SECTION */
+  .categories {
+    margin-bottom: 0;
+  }
+
+  .categories .title h1 {
+    font-size: 100%;
+  }
+
+  .image-container.row {
+    margin-left: 0;
+  }
+
+  .image-content {
+    width: 30%;
+    flex-direction: row;
+  }
+
+  .image-content.col-3 img {
+    width: 250px;
+    height: 140px;
+    border-radius: 6px;
+  }
+
+
+  /*END UNIFORM SECTION */
+
+  /* FIND US SECTION */
+
+  #brands .title h1 {
+    font-size: 100%;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 0 auto 80px;
+    position: relative;
+    line-height: 33px;
+    color: #555;
+    margin-bottom: 25px;
+  }
+
+  .title::after {
+    content: "";
+    background: #ff523b;
+    width: 35px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .small-container {
+    max-width: 500px;
+  }
+
+  .col-5 {
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-5 img {
+    width: 69px;
+    cursor: pointer;
+  }
+
+  /*END FIND US*/
+
+  /*FOOTER*/
+
+  #footer .row .footer-col-1 img {
+    width: 100px;
+  }
+
+  #footer .row .footer-col-1 p {
+    font-size: 14px;
+  }
+
+  #footer h3 {
+    margin-bottom: 10px;
+  }
+
+  .footer-col-2 h3,
+  .footer-col-3 h3 {
+    font-size: 16px;
+  }
+
+  .footer-col-2 p,
+  .footer-col-3 p {
+    font-size: 13px;
+  }
+
+  .form-group {
+    margin: 13px 0;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 5px;
+    width: 150px;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+  }
+
+  .footer-col-3 a {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .row .copyright {
+    padding-top: 7px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(48, 78, 116, 1.0);
+    color: white;
+  }
